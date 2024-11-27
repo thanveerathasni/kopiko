@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    border: 0;
+    background-color: black;
+ }
+ /* logo section and main heading */
+.h1{
+    font-size: 44px;
+    margin:0;
+    overflow: hidden;
+    letter-spacing: 6.5px;
+    font-family:"Playfair Display", serif;
+    text-align: center;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.15;
+    margin-top: 25px;
+    margin-bottom: -14px;
+    color: #999;
+}
+.paragraph1{
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 4px auto;
+    line-height: 1.75;
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-family: "Open Sans", sans-serif;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    max-width: 950px;
+    width: 95%;
+    margin-top: 0;
+    color: #d1d1d1;
+}
+/*header body with navigation bar */
+.header{
+    display:block;
+    background-color:black;
+    height: 217px;
+    padding: 15px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -10px;
+    box-sizing: border-box;
+}
+.underlinediv{
+    background-color: #999;
+    width: 85%;
+    height: 25px;
+
+}
+.nav ul{
+ color: red;
+list-style: none;
+display: flex;
+justify-content: center;
+line-height: 1.75px;
+
+}
+.nav{
+    border-top: 1px solid hsl(0, 0%, 58%);
+    width: 85%;
+}
+.nav-div{
+    display: flex;
+    justify-content: center;
+}
+nav li{
+display: flex;
+margin-top:10px;
+padding: 14px 17px;
+font-style: normal;
+letter-spacing: 0.29px;
+font-family:"Open Sans", sans-serif;
+font-weight: normal;
+font-stretch: normal;
+font-weight: normal;
+color: #fff;
+font-size: 15px;
+}
+/* little add hover */
+li:hover{
+    color:hsl(7, 69%, 55%)  ;
+}
+.spc{
+    color:hsl(7, 69%, 55%) ;
+}
+/* fist image*/
+ .img1{
+    width: 100%;
+    height: auto;
+    margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+ 
+
+}
+ .kopikoimg1{
+    width: 100%;
+    height: auto;
+ display: block;
+
+object-fit: cover;
+
+ }
+/* division consist of two sub division image section and paragraph */
+.paragraphbody{
+    background-color: black;
+}
+.paragraph2{
+    color: #999;
+    font-weight: bold;
+    font-family: "Roboto", Sans-serif;
+    line-height: 1.6em;
+    letter-spacing: -0.6px;
+    font-size: 21px;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    padding: 220px;
+    margin-top:-60px;
+    margin-bottom: -170px;
+    letter-spacing: 0;
+    
+    
+}
+.paragraph2 p{
+    letter-spacing: 0;
+    word-spacing: 0.1px;
+}
+/* last image */
+.coffeebeanimg{
+  display: flex;
+  justify-content: center;
+ margin-right: 150px;
+ margin-bottom: 450px;
+ margin-right: 550px;
+ margin-left: 550px;
+}
+/* social icon at last part*/
+.social-icons{
+    text-align: center;
+    margin-top: -190px;
+   
+    size: -70px;
+   
+}
+#facebook{
+    font-size: 30px;
+    color:#3d75b2 ;
+    
+    margin-right: 10px;
+    padding: 50px;
+  
+}
+#instagram{
+    color: hwb(0 39% 58%);
+    font-size: 30px;
+    margin-right: 10px;
+    padding: 50px;
+    padding-right: 30px;
+
+
+}
+#linkedin{
+    color: hsl(210, 84%, 68%); 
+    font-size: 30px;
+    margin-right: 10px;
+    padding: 50px;
+    padding-right: 30px;
+
+}
+#youtube{
+    color: hwb(7 8% 12%); 
+    font-size: 30px;
+    margin-right: 10px;
+    padding: 50px;
+    padding-right: 30px;
+
+}
+/* footer part of the web site */
+.footer{
+    color: #999;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+.footer b{
+    color: #fff;
+}
